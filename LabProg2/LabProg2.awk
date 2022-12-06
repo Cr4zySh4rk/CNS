@@ -7,5 +7,5 @@ c++
 }
 }
 END{
-printf("The number of packets dropped due to congestion is = %d\n",$5,c);
+printf("The number of packets dropped due to congestion is = %d\n",c);
 }
